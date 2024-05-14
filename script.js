@@ -11,9 +11,9 @@ function calculateAge() {
     
     let today = new Date();
 
-    let d2 = bithDate.getDate();
-    let m2 = bithDate.getMonth() + 1;
-    let y2 = bithDate.getFullYear();
+    let m2 = today.getMonth() + 1;
+    let d2 = today.getDate();
+    let y2 = today.getFullYear();
 
     let d3, m3, y3;
 
